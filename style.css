@@ -1,0 +1,65 @@
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.calculator{
+    height: 500px;
+    width: 350px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.display{
+    height: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    display: grid;
+}
+.output{
+    text-align:right;
+    font-size: larger;
+}
+#result{
+    height: 30px;
+    border: none;  
+}
+
+.clac-Body{
+    margin: 10px 3px;
+    height: 85%;
+    
+    /* background-color: aquamarine; */
+}
+
+table{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    border-radius: 20px;
+    /* background-color: blue; */
+}
+
+tr,td{
+    border: 5px solid #ddd;
+    
+}
+
+td:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+button{
+    background-color: #fff;
+    border: none;
+    
+}
+
+button:hover{
+    background-color: #ddd;
+}
